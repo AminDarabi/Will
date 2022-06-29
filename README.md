@@ -18,6 +18,11 @@ you can use 'Will' to choice your meal and get a random choice as simple like th
     $ will pizza burger
     pizza
 
+you can use 'Will' to flip a coin or roll a dice:
+
+    # will Head Tail
+    # will 1 2 3 4 5 6
+
 `--file <file>` option|argumant could be use to read choices from <file>.
 
     $ will --file foods.txt
