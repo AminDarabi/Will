@@ -1,0 +1,31 @@
+.\" Man file for WILL(6)
+.\" (c) Amin Darabi, 2022
+.\"
+.TH WILL 1 "30 JUN 2022" v0.1
+.SH NAME
+will \- WILL will help you make decision in dilemmas.
+.SH SYNOPSIS
+.B will [
+.I options
+.B ]
+[CHOICE_1 CHOICE_2 ... | stdin]
+.SH DESCRIPTION
+.B WILL
+WILL selects one of the choices randomly.
+.SH OPTIONS
+.IP -h,\ --help
+returns the usage of WILL.
+.IP -e,\ --endline
+choices in stdin and files will separate by endline. So you can choices like "CHOICE 2" or "peperoni pizza".
+.IP -n,\ --newline
+it works exactly like --endline.
+.IP -i,\ --input
+readin choices from stdin will be enabled. if there is no choices in argumants and there is no file, it is enabled by default.
+.IP -f,\ --file <file>
+WILL will read choices from <file>.
+.IP -s,\ --shuffle
+All choices will print in a shuffled order.
+.SH COPYRIGHT
+BSD 2-Clause
+.SH AUTHOR
+Amin Darabi <amin@AminDarabi.ir>
