@@ -53,7 +53,9 @@ an example of using 'Will' with this option and 'Will' answer is:
     
     $ will --endline < student_list.csv
     9912345,Amin Darabi,CS
+                                       
 or
+                                       
     $ will --endline --file student_list.csv
     9912345,Amin Darabi,CS
 
