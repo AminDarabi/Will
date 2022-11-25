@@ -9,7 +9,7 @@ you can install the will on linux/mac/unixlikes like this:
     $ git clone https://github.com/AminDarabi/will.git
     $ cd will
     $ make
-    $ sudo install
+    $ sudo make install
 
 # USAGE
 
